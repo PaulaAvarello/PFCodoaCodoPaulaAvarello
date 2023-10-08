@@ -28,9 +28,7 @@ nav{
 .fijo nav a{
     font-size: small;
 }
-.nav-link.comp{
-    text-decoration-color: #198754;
-}
+
 .primera {
     display: grid;
     grid-template-columns: 1fr;
