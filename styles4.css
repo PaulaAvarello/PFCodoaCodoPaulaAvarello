@@ -23,13 +23,16 @@
     width: 5.5em;
     margin-left: 0.5em;
 }
-
-#menu {
-    width: 5em;
+nav{
     margin-left: auto;
-    padding: 0 1.5em 0 0;
-}
+   }
+.fijo nav a{
+       font-size: small;
+   }
 
+.nav-link.comp{
+    text-decoration-color: #198754;
+}
 .primera {
     display: grid;
     grid-template-columns: 1fr;
@@ -65,12 +68,14 @@
 }
 
  @media (max-width:678px) {
-    #menu {
-        width: 4em;
+    nav{
         margin-left: auto;
-        padding: 0 1.5em 0 0;
-    }
-
+        margin-right: 20%;
+       }
+       .fijo nav a{
+           font-size: small;
+       }
+   
     .primera {
         display: flex;
         flex-direction: column;
@@ -109,14 +114,16 @@
 } 
 
 @media (max-width:480px) {
+    nav{
+        margin-left: auto;
+        margin-right: 20%;
+       }
+       .fijo nav a{
+           font-size: small;
+       }
+
     .fijo a {
         font-size: small;
-    }
-
-    #menu {
-        width: 3em;
-        margin-left: auto;
-        padding: 0 1.5em 0 0;
     }
 
     .primera {

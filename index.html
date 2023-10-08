@@ -5,39 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo final</title>
-        <link rel="stylesheet" href="styles3.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    </head>
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
 
-    <body>
-        <div class="fijo">
-            <a href="#"><img src="assets/codoacodo.png" alt="Codo a codo"></a>
-            <a href="#">Conf Bs As</a>
-            <img id="menu" src="assets/menudesp.png" alt="Menú desplegable">
-        </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+<body>
+    <div class="fijo">
+        <a href="#"><img src="assets/codoacodo.png" alt="Codo a codo"></a>
+        <a href="#">Conf Bs As</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                  <a class="nav-link" href="#oradores">Los oradores</a>
+                  <a class="nav-link" href="#bsas">El lugar y la fecha</a>
+                  <a class="nav-link" href="#conviertete">Conviertete en orador</a>
+                  <a class="nav-link" class="comp" href="comprar.html">Comprar tickets</a>
+                </div>
+              </div>
             </div>
-            <div class="primera">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/hawaii.jpg" class="d-block " alt="Bs As">
+          </nav>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="primera">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/hawaii.jpg" class="d-block " alt="Bs As">
+                    <div class="textoencima">
+                        <h1>Conf Bs As</h1>
+                        <div class="p">
+                            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
+                                comunidad el
+                                conocimiento y
+                                experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a
+                                los
+                                miembros del
+                                evento, a otros estudiantes de <br>
+                                Coco a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+                            </p>
+                        </div>
+                        <div>
+                            <button id="boton1">Quiero ser orador</button>
+                            <a href="comprar.html" target="_blank"><button id="boton2">Comprar tickets</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="primera">
+                    <div class="carousel-item">
+                        <img src="assets/hawaii2.jpg" class="d-block " alt="Bs As">
                         <div class="textoencima">
                             <h1>Conf Bs As</h1>
                             <div class="p">
                                 <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
-                                    comunidad el
+                                    comunidad
+                                    el
                                     conocimiento y
-                                    experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a
-                                    los
+                                    experiencia de los expertos que están creando el futuro de Internet. Ven a
+                                    conocer a los
                                     miembros del
                                     evento, a otros estudiantes de <br>
                                     Coco a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
@@ -51,175 +90,152 @@
                     </div>
                     <div class="primera">
                         <div class="carousel-item">
-                            <img src="assets/hawaii2.jpg" class="d-block " alt="Bs As">
+                            <img src="assets/hawaii3.jpg" class="d-block " alt="...">
                             <div class="textoencima">
                                 <h1>Conf Bs As</h1>
                                 <div class="p">
                                     <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
                                         comunidad
-                                        el
-                                        conocimiento y
+                                        el conocimiento y
                                         experiencia de los expertos que están creando el futuro de Internet. Ven a
-                                        conocer a los
+                                        conocer a
+                                        los
                                         miembros del
                                         evento, a otros estudiantes de <br>
-                                        Coco a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+                                        Coco a Codo y los oradores de primer nivel que tenemos para ti. Te
+                                        esperamos!
                                     </p>
                                 </div>
                                 <div>
                                     <button id="boton1">Quiero ser orador</button>
-                                    <a href="comprar.html" target="_blank"><button id="boton2">Comprar tickets</button></a>
+                                    <a href="comprar.html" target="_blank"><button id="boton2">Comprar
+                                            tickets</button></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="primera">
-                            <div class="carousel-item">
-                                <img src="assets/hawaii3.jpg" class="d-block " alt="...">
-                                <div class="textoencima">
-                                    <h1>Conf Bs As</h1>
-                                    <div class="p">
-                                        <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
-                                            comunidad
-                                            el conocimiento y
-                                            experiencia de los expertos que están creando el futuro de Internet. Ven a
-                                            conocer a
-                                            los
-                                            miembros del
-                                            evento, a otros estudiantes de <br>
-                                            Coco a Codo y los oradores de primer nivel que tenemos para ti. Te
-                                            esperamos!
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <button id="boton1">Quiero ser orador</button>
-                                        <a href="comprar.html" target="_blank"><button id="boton2">Comprar tickets</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="conoceAlos">
-            <p>CONOCE A LOS</p>
-            <h1>ORADORES</h1>
-            <div class="oradores">
-                <div class="cuadro">
-                    <div class="cuadroSteve">
-                        <img src="assets/steve.png" alt="Steve Jobs">
-                        <button class="java">JavaScript</button>
-                        <button class="react">React</button>
-                        <h2>Steve Jobs</h2>
-                        <p>Cofundador de Apple y visionario de la tecnología, creó productos emblemáticos como el
-                            Macintosh, el
-                            iPod, el
-                            iPhone y el iPad, y también fundó Pixar. Falleció en 2011, dejando un legado duradero en la
-                            industria y
-                            en
-                            el mundo empresarial</p>
-                    </div>
+    </div>
+    <div class="conoceAlos" id="oradores">
+        <p>CONOCE A LOS</p>
+        <h1>ORADORES</h1>
+        <div class="oradores">
+            <div class="cuadro">
+                <div class="cuadroSteve">
+                    <img src="assets/steve.png" alt="Steve Jobs">
+                    <button class="java">JavaScript</button>
+                    <button class="react">React</button>
+                    <h2>Steve Jobs</h2>
+                    <p>Cofundador de Apple y visionario de la tecnología, creó productos emblemáticos como el
+                        Macintosh, el
+                        iPod, el
+                        iPhone y el iPad, y también fundó Pixar. Falleció en 2011, dejando un legado duradero en la
+                        industria y
+                        en
+                        el mundo empresarial</p>
                 </div>
-                <div class="cuadro">
-                    <div class="cuadrobill">
-                        <img src="assets/bill.png" alt="Bill Gates">
-                        <button class="java">JavaScript</button>
-                        <button class="react">React</button>
-                        <h2>Bill Gates</h2>
-                        <p>Cofundador de Microsoft y filántropo, ha sido pionero en la industria de la tecnología.
-                            También ha
-                            trabajado
-                            para abordar problemas globales a través de su fundación. Su fortuna personal es
-                            significativa.</p>
-                    </div>
+            </div>
+            <div class="cuadro">
+                <div class="cuadrobill">
+                    <img src="assets/bill.png" alt="Bill Gates">
+                    <button class="java">JavaScript</button>
+                    <button class="react">React</button>
+                    <h2>Bill Gates</h2>
+                    <p>Cofundador de Microsoft y filántropo, ha sido pionero en la industria de la tecnología.
+                        También ha
+                        trabajado
+                        para abordar problemas globales a través de su fundación. Su fortuna personal es
+                        significativa.</p>
                 </div>
-                <div class="cuadro">
-                    <div class="cuadroada">
-                        <img src="assets/ada.png" alt="Ada Lovelace">
-                        <button class="java">JavaScript</button>
-                        <button class="react">React</button>
-                        <h2>Ada Lovelace</h2>
-                        <p>Matemática y escritora británica del siglo XIX, considerada la primera programadora de la
-                            historia
-                            por su
-                            trabajo en el "Motor Analítico" de Charles Babbage.</p>
-                    </div>
+            </div>
+            <div class="cuadro">
+                <div class="cuadroada">
+                    <img src="assets/ada.png" alt="Ada Lovelace">
+                    <button class="java">JavaScript</button>
+                    <button class="react">React</button>
+                    <h2>Ada Lovelace</h2>
+                    <p>Matemática y escritora británica del siglo XIX, considerada la primera programadora de la
+                        historia
+                        por su
+                        trabajo en el "Motor Analítico" de Charles Babbage.</p>
                 </div>
             </div>
         </div>
-        <div class="bsas">
-            <img src="assets/honolulu.jpg" alt="Playa" width="100%" height="100%">
-            <div>
-                <h2>Bs As-Octubre</h2>
-                <p>Buenos Aires es la provincia más grande de Argentina, con una superficie de más de 300,000 kilómetros
-                    cuadrados y una población de más de 15 millones de habitantes. La provincia incluye la ciudad de
-                    Buenos
-                    Aires, que es la capital del país, así como numerosas ciudades importantes como La Plata, Mar del
-                    Plata y
-                    Bahía Blanca.
-                    La provincia de Buenos Aires es el centro económico y cultural de Argentina, con una gran cantidad
-                    de
-                    industrias, comercios y servicios. También es conocida por sus hermosas playas y sus extensas zonas
-                    rurales,
-                    donde se producen gran parte de los alimentos que se consumen en todo el país.</p>
-                <a href="https://es.wikipedia.org/wiki/Buenos_Aires" target="_blank"><button>Conoce más</button></a>
-            </div>
+    </div>
+    <div class="bsas" id="bsas">
+        <img src="assets/honolulu.jpg" alt="Playa" width="100%" height="100%">
+        <div>
+            <h2>Bs As-Octubre</h2>
+            <p>Buenos Aires es la provincia más grande de Argentina, con una superficie de más de 300,000 kilómetros
+                cuadrados y una población de más de 15 millones de habitantes. La provincia incluye la ciudad de
+                Buenos
+                Aires, que es la capital del país, así como numerosas ciudades importantes como La Plata, Mar del
+                Plata y
+                Bahía Blanca.
+                La provincia de Buenos Aires es el centro económico y cultural de Argentina, con una gran cantidad
+                de
+                industrias, comercios y servicios. También es conocida por sus hermosas playas y sus extensas zonas
+                rurales,
+                donde se producen gran parte de los alimentos que se consumen en todo el país.</p>
+            <a href="https://es.wikipedia.org/wiki/Buenos_Aires" target="_blank"><button>Conoce más</button></a>
         </div>
-        <div class="conviertete">
-            <div>CONVIERTETE EN UN</div>
-            <h2>ORADOR</h2>
-            <div>Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de que quieres hablar!</div>
-            <form>
-                <div class="nomAp">
-                    <div class="form-group">
-                        <label for="nombre"></label>
-                        <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Nombre"
-                            required />
-                    </div>
-                    <div class="form-group">
-                        <label for="apellido"></label>
-                        <input class="form-control" id="email" type="text" name="apellido" placeholder="Apellido"
-                            required />
-                    </div>
+    </div>
+    <div class="conviertete" id="conviertete">
+        <div>CONVIERTETE EN UN</div>
+        <h2>ORADOR</h2>
+        <div>Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de que quieres hablar!</div>
+        <form>
+            <div class="nomAp">
+                <div class="form-group">
+                    <label for="nombre"></label>
+                    <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Nombre" required />
                 </div>
                 <div class="form-group">
-                    <div class="txt">
-                        <label for="exampleFormControlTextarea1"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Sobre qué quieres hablar?"></textarea>
-                    </div>
+                    <label for="apellido"></label>
+                    <input class="form-control" id="email" type="text" name="apellido" placeholder="Apellido"
+                        required />
                 </div>
-                <div class="botonn">
-                    <input class="btn botonn fw-bold text-center" type="submit" value="Enviar">
+            </div>
+            <div class="form-group">
+                <div class="txt">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Sobre qué quieres hablar?"></textarea>
                 </div>
-            </form>
-            <footer>
-                <div class="foot">
-                    <a href="">Preguntas frecuentes</a>
-                    <a href="">Contáctanos</a>
-                    <a href="">Prensa</a>
-                    <a href="">Conferencias</a>
-                    <a href="">Términos y condiciones</a>
-                    <a href="">Privacidad</a>
-                    <a href="">Estudiantes</a>
-                </div>
-            </footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
-    </body>
+            </div>
+            <div class="botonn">
+                <input class="btn botonn fw-bold text-center" type="submit" value="Enviar">
+            </div>
+        </form>
+        <footer>
+            <div class="foot">
+                <a href="">Preguntas frecuentes</a>
+                <a href="">Contáctanos</a>
+                <a href="">Prensa</a>
+                <a href="">Conferencias</a>
+                <a href="">Términos y condiciones</a>
+                <a href="">Privacidad</a>
+                <a href="">Estudiantes</a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
 
-    </html>
+</html>
 </body>
 
 </html>
